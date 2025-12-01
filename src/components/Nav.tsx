@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { useCart } from '../components/context/CartContext'
-import CartModal from '../components/cart/CartModal'
+import { useCart } from './context/CartContext'
+import CartModal from './cart/CartModal'
 
 export default function Nav() {
   const { cartCount } = useCart()

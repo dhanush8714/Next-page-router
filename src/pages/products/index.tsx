@@ -1,8 +1,8 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import ProductCard from '../components/productCard/ProductCard'
-import ProductSkeleton from '../components/skeleton/ProductSkeleton'   
+import ProductCard from '@/components/productCard/ProductCard'
+import ProductSkeleton from '@/components/skeleton/ProductSkeleton'   
 
 export default function Products() {
   const [products, setProducts] = useState<any[]>([])
